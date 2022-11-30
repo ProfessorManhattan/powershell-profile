@@ -96,8 +96,6 @@ foreach ( $includeFile in ("aws", "defaults", "openssl", "aws", "unix", "develop
 . "$profileDir\$includeFile.ps1"
 }
 
-set-location '~/Code'
-
-write-output 'Mike profile loaded.'
+write-output 'Profile loaded.'
 
 
